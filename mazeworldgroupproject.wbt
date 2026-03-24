@@ -1,13 +1,56 @@
 #VRML_SIM R2025a utf8
+
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/apartment_structure/protos/Wall.proto"
+
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.5773 0.5773 0.5773 2.0944
-  position 0 0 10
+  orientation 0.3498565723428181 -0.3585130944679384 -0.8654875735003696 4.592647657182615
+  position 0.42923908699396646 -3.012710385411047 2.510710680820395
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
+}
+Floor {
+  size 1.7 1.7
+  tileSize 0.25 0.25
+}
+Wall {
+  translation 0.75 0.77 0.05
+  rotation 1 0 0 1.5708
+  size 0.01 0.1 1.5
+}
+Wall {
+  translation -0.75 0.77 0.05
+  rotation 1 0 0 1.5708
+  name "wall(1)"
+  size 0.01 0.1 1.5
+}
+Wall {
+  translation -0.75 0.77 0.0500002
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "wall(2)"
+  size 0.01 0.1 0.63
+}
+Wall {
+  translation -3.34585e-08 0.77 0.0500002
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "wall(3)"
+  size 0.01 0.1 0.75
+}
+Wall {
+  translation -0.749997 -0.73 0.0499852
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "wall(4)"
+  size 0.01 0.1 0.75
+}
+Wall {
+  translation 0.130003 -0.73 0.0499852
+  rotation 0.5773509358554485 0.5773489358556708 0.5773509358554485 2.0944
+  name "wall(5)"
+  size 0.01 0.1 0.63
 }
