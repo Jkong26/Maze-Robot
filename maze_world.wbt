@@ -248,5 +248,5 @@ E-puck {
   hidden rotation_2 0 1 0 5.114909176596025
   translation -0.894722 0.904939 -9.2835e-05
   rotation -0.0001537049980540442 4.117559947870338e-05 -0.9999999873396715 1.57067
-  controller "movement"
+  controller "test_movement"
 }
